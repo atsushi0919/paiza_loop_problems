@@ -1,0 +1,58 @@
+=====================
+言語：Ruby
+問題URL：https://paiza.jp/works/mondai/loop_problems/loop_problems__seq_reverse
+コメント：ループメニュー1「数列の反転」
+コード：
+```ruby
+def solve(input_lines)
+  _, *a = input_lines.split
+  a.reverse
+end
+
+puts solve(STDIN.read)
+```
+=====================
+
+=====================
+言語：Ruby
+問題URL：https://paiza.jp/works/mondai/loop_problems/loop_problems__kuku_step1
+コメント：ループメニュー1「九九の表示 1」
+コード：
+```ruby
+d = 8
+a = 1.upto(9).map { |i| d * i }
+puts a.join(" ")
+```
+=====================
+
+=====================
+言語：Ruby
+問題URL：https://paiza.jp/works/mondai/loop_problems/loop_problems__kuku_step2
+コメント：ループメニュー1「九九の表示 2」
+コード：
+```ruby
+d = gets.to_i
+a = 1.upto(9).map { |i| d * i }
+puts a.join(" ")
+```
+=====================
+
+=====================
+言語：Ruby
+問題URL：https://paiza.jp/works/mondai/loop_problems/loop_problems__pow2
+コメント：ループメニュー1「2 の累乗を表示」
+コード：
+```ruby
+n = gets.to_i
+1.upto(n) { |i| puts 2 ** i }
+```
+=====================
+
+=====================
+言語：Ruby
+問題URL：
+コメント：ループメニュー1「」
+コード：
+```ruby
+```
+=====================
