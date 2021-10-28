@@ -1,3 +1,10 @@
+def solve(input_lines)
+  _, *a = input_lines.split
+  a.reverse
+end
+
+puts solve(STDIN.read)
+
 =begin
 数列の反転 (paizaランク D 相当)
 問題にチャレンジして、ユーザー同士で解答を教え合ったり、コードを公開してみよう！

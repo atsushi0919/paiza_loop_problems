@@ -50,9 +50,22 @@ n = gets.to_i
 
 =====================
 言語：Ruby
-問題URL：
-コメント：ループメニュー1「」
+問題URL：https://paiza.jp/works/mondai/loop_problems/loop_problems__fizzbuzz
+コメント：ループメニュー1「FizzBuzz」
 コード：
 ```ruby
+n = 100
+a = 1.upto(n).map do |i|
+  if i % 15 == 0
+    "FizzBuzz"
+  elsif i % 3 == 0
+    "Fizz"
+  elsif i % 5 == 0
+    "Buzz"
+  else
+    i
+  end
+end
+puts a
 ```
 =====================
